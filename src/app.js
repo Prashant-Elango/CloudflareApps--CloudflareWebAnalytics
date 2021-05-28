@@ -4,7 +4,7 @@
     function GenerateCloudflareWebAnalyticsSnippet(token) {
         var cloudflare_web_analytics_template = `<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "cloudflare_web_anaytics_token"}'></script><!-- End Cloudflare Web Analytics -->`;
 
-        return cloudflare_web_anaytics_template.replace("cloudflare_web_anaytics_token", token);
+        return cloudflare_web_analytics_template.replace("cloudflare_web_anaytics_token", token);
     }
 
     function InsertCodeIntoWebpage(token) {
